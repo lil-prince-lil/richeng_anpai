@@ -1,0 +1,6 @@
+# Caddy 自动申请并续期 Let's Encrypt 证书（HTTPS）
+# 域名已确认：voice-schedule.aifeeling.tech
+voice-schedule.aifeeling.tech {
+    encode gzip
+    reverse_proxy app:3000
+}
